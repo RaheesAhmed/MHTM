@@ -2,11 +2,17 @@
     "name": "mhtm",
     "version": "1.0.0",
     "description": "Modern HTML package for Node.js",
+    "author": {"name": "Rahees Ahmed","url": "https://github.com/RaheesAhmed","email": "raheesahmed256@gmail.com"},
     "main": "src/index.js",
     "scripts": {
         "start": "node index.js"
     },
     "dependencies": {
         "express": "^4.18.2"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RaheesAhmed/MHTM.git"
+      }
+      
 }
