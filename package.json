@@ -5,7 +5,7 @@
     "author": {"name": "Rahees Ahmed","url": "https://github.com/RaheesAhmed","email": "raheesahmed256@gmail.com"},
     "license": "MIT",
     "keywords": ["html", "templating", "nodejs"],
-    "main": "src/index.js",
+    "main": "index.js",
     "scripts": {
         "start": "node index.js"
     },
