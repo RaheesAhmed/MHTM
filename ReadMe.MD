@@ -51,7 +51,7 @@ npm install mhtm
 First, import the package and create a new instance.
 
 ```
-const MHTM = require('mhtm');
+const { MHTM } = require('mhtm');
 const page = new MHTM();
 ```
 
