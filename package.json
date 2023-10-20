@@ -1,6 +1,6 @@
 {
     "name": "mhtm",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Modern HTML package for Node.js",
     "author": {"name": "Rahees Ahmed","url": "https://github.com/RaheesAhmed","email": "raheesahmed256@gmail.com"},
     "license": "MIT",
