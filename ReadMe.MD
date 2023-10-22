@@ -55,6 +55,11 @@ const { MHTM } = require('mhtm');
 const page = new MHTM();
 ```
 
+You can add also Custom CSS to any Element.You can use the same STYLE HTML Properties.
+```
+page.button("Text", "Click ME", { style: 'width:50px; height:170px; background:green;' });
+```
+
 ### Header
 
 To add a header:

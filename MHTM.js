@@ -61,14 +61,22 @@ class MHTM {
     this.components.forEach(fn => fn());
   }
 
-  // Utility to generate attributes string
-  generateAttributes({ id, className, style }) {
-    let attributes = '';
-    if (id) attributes += ` id="${id}"`;
-    if (className) attributes += ` class="${className}"`;
-    if (style) attributes += ` style="${style}"`;
-    return attributes;
-  }
+  
+// Utility to generate attributes string
+generateAttributes({ id, className, style, width, height }) {
+  let attributes = '';
+  let inlineStyle = style || '';
+  
+  if (id) attributes += ` id="${id}"`;
+  if (className) attributes += ` class="${className}"`;
+  if (width) inlineStyle += `width:${width};`;
+  if (height) inlineStyle += `height:${height};`;
+  
+  if (inlineStyle) attributes += ` style="${inlineStyle}"`;
+  
+  return attributes;
+}
+
 
 
   fileUpload(options) {
